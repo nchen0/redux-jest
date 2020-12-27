@@ -1,15 +1,12 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import Header from './index';
+import { findByTestAtrr } from './../../../Utils';
 
 // as our tests grow, we don't want repeititve code, so we can create a setup funciton.
 const setUp = (props = {}) => {
     const component = shallow(<Header {...props} />);
     return component;
-}
-
-const findByTestAtrr = (component, attribute) => {
-    return component.find(`[data-test='${attribute}']`);
 }
 
 describe('Header Component', () => {
