@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { findByTestAtrr, checkProps } from './../../../Utils';
+import { findByTestAtrr, checkProps } from '../../../Utils';
 import SharedButton from './index';
 
 describe('SharedButton Component', () => {

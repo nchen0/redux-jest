@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import { findByTestAtrr, checkProps } from './../../../Utils';
+import { findByTestAtrr, checkProps } from '../../../Utils';
 import ListItem from './index';
 
 describe('ListItem Component', () => {
